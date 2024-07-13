@@ -77,10 +77,11 @@ figure {
   padding-bottom: 40px;
   float: left;
   width: 300px;
+  border-radius: 10px;
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  background: #9cf4fa;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -822,11 +823,11 @@ body.offcanvas {
     height: 100px;
     display: table;
     text-align: center;
-    background: #f2f3f7;
+    background: #a5e7f0;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
-    border-radius: 2px; }
+    border-radius: 50px; }
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
@@ -861,7 +862,6 @@ body.offcanvas {
 .blog-entry {
   width: 100%;
   float: left;
-  background: #fff;
   margin-bottom: 3em; }
   @media screen and (max-width: 768px) {
     .blog-entry {
